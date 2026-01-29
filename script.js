@@ -7,6 +7,31 @@ canvas.height = window.innerHeight;
 function random(min, max) {
   return Math.random() * (max - min) + min;
 }
+class Particle {
+  constructor(x, y, color) {
+    this.x = x;
+    this.y = y;
+    this.color = color;
+    this.radius = 2;
+
+    const goc = Math.random() * Math.PI * 2;
+    const vantoc = Math.random() * 5;
+    this.vantocx = Math.cos(goc) * vantoc;
+    this.vantocy = Math.sin(goc) * vantoc;
+    const life = 10;
+  }
+  update() {
+    this.x = this.x + this.vantocx;
+    this.y = this.y + this.vantocy;
+    this.life--;
+  }
+  draw() {
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+    ctx.fillStyle = this.color;
+    ctx.fill();
+  }
+}
 
 class Firework {
   constructor() {
