@@ -15,11 +15,11 @@ const wishesContainer = document.getElementById("wishesContainer");
 
 const wishes = [
   "Happy New Year 2026!",
-  "Chúc bạn một năm mới rực rỡ!",
-  "Sức khỏe dồi dào!",
+  "Chúc bạn năm mới cái gì cũng mới :))",
+  "Có thật nhiều niềm vui ",
   "Thành công và hạnh phúc!",
-  "May mắn tràn đầy!",
-  "Vạn sự như ý!",
+  "Gặp nhiều may mắn",
+  "Quan trọng là hãy tự tin lên nhé hehehehe",
 ];
 
 function random(min, max) {
