@@ -14,12 +14,12 @@ const startScreen = document.getElementById("startScreen");
 const wishesContainer = document.getElementById("wishesContainer");
 
 const wishes = [
-  "Happy New Year 2026!",
-  "Chúc bạn năm mới cái gì cũng mới :))",
-  "Có thật nhiều niềm vui ",
-  "Thành công và hạnh phúc!",
-  "Gặp nhiều may mắn",
-  "Quan trọng là hãy tự tin lên nhé hehehehe",
+  "anh có điều muốn nói với em :)))",
+  "anh thấy em cứ tẻn tẻn kiểu gì ấy :))))",
+  "em cứ mát mát như mùa thu Hà Nội vậy :))",
+  "chúc em mãi giữ được sự tẻn này để mang lại tiếng cười cho mọi người :)))",
+  "lời nhắn đến từ anh Chung 2k7",
+  "hehehehehehehehehehe",
 ];
 
 function random(min, max) {
